@@ -1,0 +1,85 @@
+---
+---
+@charset "UTF-8";
+
+$black: #000;
+$red: #FF0000;
+$blue: #0000FF;
+
+body {
+  font-family: 'Courier New', Courier, 'Lucida Console', Monaco, monospace;
+  line-height: 1.6;
+  color: #222;
+  background: #fefefe;
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 15px;
+}
+
+header {
+  border-bottom: 2px solid #222;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-right: 15px;
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: #ffff00;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px solid #222;  /* Using the first definition's border */
+  font-size: 13px;
+  color: #666;
+}
+
+code {
+  background: #f6f8fa;  /* Using the second definition's background */
+  color: #0f0;          /* Keeping the green color from first definition */
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+hr {
+  border: none;
+  overflow: visible;
+  text-align: center;
+  height: 1px;
+}
+
+hr:after {
+  content: '════';
+  color: #666;
+  letter-spacing: -2px;
+}
+
+blockquote {
+  border-left: 4px solid #ddd;
+  margin: 0;
+  padding-left: 20px;
+  color: #666;
+}

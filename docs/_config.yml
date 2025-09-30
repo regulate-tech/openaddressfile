@@ -12,12 +12,14 @@ github_repo_url: "https://github.com/regulate-tech/openaddressfile"
 github_repo: regulate-tech/openaddressfile
 # BASEURL: Must match the repository name for Project Pages
 # This ensures that internal links start with /openaddressfile/
-baseurl: "/openaddressfile"
+# baseurl: "/openaddressfile"
+
 # URL: This is the host URL. Use your actual GitHub username/organization.
 url: "https://regulate-tech.github.io"
+
 # URL settings for GitHub Pages live
-# baseurl: ""  # Empty for custom domain
-# url: "https://openaddressfile.uk"
+baseurl: ""  # Empty for custom domain
+url: "https://openaddressfile.uk"
 
 # THEME: Use a theme supported by GitHub Pages
 theme: jekyll-theme-minimal
